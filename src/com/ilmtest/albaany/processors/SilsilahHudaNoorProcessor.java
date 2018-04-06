@@ -12,9 +12,9 @@ import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import com.ocean.lib.io.DBUtils;
-import com.ocean.lib.io.NetworkBoundary;
-import com.ocean.lib.text.TextUtils;
+import com.ilmtest.lib.io.DBUtils;
+import com.ilmtest.lib.io.NetworkBoundary;
+import com.ilmtest.util.text.TextUtils;
 
 public class SilsilahHudaNoorProcessor
 {
