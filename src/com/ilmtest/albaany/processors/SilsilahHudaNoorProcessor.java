@@ -76,8 +76,6 @@ public class SilsilahHudaNoorProcessor
 			ps.execute();
 		}
 
-		DBUtils.execStatement(c, "CREATE INDEX IF NOT EXISTS lookups ON entries (part_number,part_page)");
-
 		c.commit();
 		ps.close();
 	}
